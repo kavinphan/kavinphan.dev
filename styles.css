@@ -35,7 +35,8 @@ h2 {
 }
 
 h3 {
-  font-size: x-large;
+  font-size: medium;
+  font-weight: normal;
 }
 
 nav {
@@ -86,55 +87,27 @@ a:hover {
 }
 
 .grayscale-text {
+  color: #7b90ef;
   font-weight: bold;
   text-decoration-color: transparent;
-
-  background-image: linear-gradient(15deg, #697dd3, #b5bbd1);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 .gt-text {
+  color: #efc955;
   font-weight: bold;
   text-decoration-color: transparent;
-
-  background-image: linear-gradient(15deg, #a4925a, #f9dd89);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 .tesla-text {
+  color: #e80d0d;
   font-weight: bold;
   text-decoration-color: transparent;
-
-  background-image: linear-gradient(15deg, #aa0000, #f20000);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 .ncr-text {
+  color: #54bc4b;
   font-weight: bold;
   text-decoration-color: transparent;
-
-  background-image: linear-gradient(15deg, #2b6026, #54bc4b);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 @media (max-width: 700px) {
@@ -147,10 +120,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-  }
-
-  h3 {
-    font-size: larger;
   }
 
   .date-range {
