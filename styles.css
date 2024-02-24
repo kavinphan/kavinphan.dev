@@ -71,7 +71,8 @@ ul {
   list-style-type: "- ";
 }
 
-p {
+p,
+li {
   line-height: 150%;
 }
 
