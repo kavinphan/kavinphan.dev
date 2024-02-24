@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  text-align: start;
   margin-bottom: 0.5rem;
 }
 
@@ -52,7 +52,7 @@ section {
   margin-bottom: 1.5rem;
 }
 
-.experience-group {
+.group {
   margin-bottom: 1rem;
 }
 
