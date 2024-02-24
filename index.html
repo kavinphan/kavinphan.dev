@@ -21,12 +21,15 @@
   <body>
     <main>
       <h1>Kavin Phan</h1>
+
       <nav>
         <a href="mailto:kavin@kphan.tech">kavin@kphan.tech</a>
         <a href="tel:+14709093300">470-909-3300</a>
         <a href="https://github.com/kphan32/">GitHub</a>
         <a href="https://www.linkedin.com/in/kavin-phan/">LinkedIn</a>
       </nav>
+
+      <!-- About Me -->
       <section>
         <p>
           I am a full-time <i>software engineer</i> at
@@ -40,6 +43,8 @@
           recently transitioned into a <i>site reliability engineer</i> role.
         </p>
       </section>
+
+      <!-- Experience -->
       <section>
         <h2>Experience</h2>
         <div class="group">
@@ -124,6 +129,8 @@
           </ul>
         </div>
       </section>
+
+      <!-- Education -->
       <section>
         <h2>Education</h2>
         <div class="group">
@@ -139,6 +146,49 @@
             <li>GPA: 3.53</li>
             <li>Awards: Zell Miller Scholarship, Dean's List</li>
           </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section>
+        <h2>Projects</h2>
+        <div class="groups-grid">
+          <div class="group">
+            <div class="group-header">
+              <h3>
+                <a href="https://kp-mtl.netlify.app/" class="project-title">
+                  Multiplayer Tier List
+                </a>
+              </h3>
+            </div>
+            <p>Tier lists with democracy.</p>
+            <img src="mtl.png" class="project-img" />
+          </div>
+          <div class="group">
+            <div class="group-header">
+              <h3>
+                <a href="https://github.com/kphan32/arq" class="project-title">
+                  Arq
+                </a>
+              </h3>
+            </div>
+            <p>Service skeleton framework for Ruby.</p>
+            <div class="code-block">class Echo
+  extend Arq::Action
+
+  params  :ping
+  returns :pong
+
+  run do
+    @pong = @ping
+  end
+end
+
+result = EchoAction.call(
+  ping: "hello world!"
+)
+result[:pong] # => "hello world!"</div>
+          </div>
         </div>
       </section>
     </main>

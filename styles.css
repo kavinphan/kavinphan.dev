@@ -31,7 +31,6 @@ h1 {
 
 h2 {
   text-align: start;
-  margin-bottom: 0.5rem;
 }
 
 h3 {
@@ -52,8 +51,16 @@ section {
   margin-bottom: 1.5rem;
 }
 
+.groups-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
 .group {
   margin-bottom: 1rem;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .group-header {
@@ -110,9 +117,33 @@ a:hover {
   text-decoration-color: transparent;
 }
 
+.project-title {
+  font-weight: bold;
+}
+
+.project-img {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.code-block {
+  padding: 0.5rem;
+  border: 1px dashed #fff;
+  border-radius: 5px;
+  white-space: pre;
+  font-size: small;
+}
+
 @media (max-width: 700px) {
   body {
     margin-top: 0.5rem;
+  }
+
+  .groups-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
   }
 
   .group-header {
