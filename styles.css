@@ -63,7 +63,7 @@ section {
 
 .date-range {
   text-align: end;
-  opacity: 85%;
+  opacity: 50%;
 }
 
 ul {
@@ -141,7 +141,18 @@ a:hover {
     margin-top: 0.5rem;
   }
 
+  .group-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
   h3 {
-    font-size: medium;
+    font-size: larger;
+  }
+
+  .date-range {
+    font-size: smaller;
   }
 }
