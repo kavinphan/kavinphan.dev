@@ -126,3 +126,31 @@ a:hover {
     font-size: smaller;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #fff;
+    color: #000;
+  }
+
+  a {
+    color: #000;
+    text-decoration-color: #000;
+  }
+
+  .grayscale-text {
+    color: #4e66d1;
+  }
+
+  .gt-text {
+    color: rgb(241, 193, 46);
+  }
+
+  .tesla-text {
+    color: #f70303;
+  }
+
+  .ncr-text {
+    color: #4fdf42;
+  }
+}
