@@ -137,6 +137,10 @@ a:hover {
 }
 
 @media (max-width: 700px) {
+  body {
+    margin-top: 0.5rem;
+  }
+
   h3 {
     font-size: medium;
   }
