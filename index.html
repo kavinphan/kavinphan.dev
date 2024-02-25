@@ -31,15 +31,15 @@
       <!-- About Me -->
       <section>
         <p>
-          I am a full-time <i>software engineer</i> at
+          I am a full-time software engineer at
           <a href="https://grayscaleapp.com/" class="grayscale-text">
             Grayscale
           </a>
-          while also pursuing my <i>B.S. in Computer Science</i> at the
+          while also pursuing my B.S. in Computer Science at the
           <a href="https://www.gatech.edu/" class="gt-text">
             Georgia Institute of Technology</a
-          >. I am proficient at <i>full-stack web development</i> but have
-          recently transitioned into a <i>site reliability engineer</i> role.
+          >. I am proficient at full-stack web development but have
+          recently transitioned into a site reliability engineer role.
         </p>
       </section>
 
@@ -152,7 +152,7 @@
       <section>
         <h2>Projects</h2>
         <div class="groups-grid">
-          <div class="group">
+          <div class="group project">
             <div class="group-header">
               <h3>
                 <a href="https://kp-mtl.netlify.app/" class="project-title">
@@ -160,10 +160,10 @@
                 </a>
               </h3>
             </div>
-            <p>Tier lists with democracy. Developed using React+Vite and GoLang.</p>
-            <img src="mtl.png" class="project-img" />
+            <p>Tier lists with democracy. Developed using React and GoLang.</p>
+            <img src="mtl.png" class="project-img example" />
           </div>
-          <div class="group">
+          <div class="group project">
             <div class="group-header">
               <h3>
                 <a href="https://github.com/kphan32/arq" class="project-title">
@@ -171,8 +171,8 @@
                 </a>
               </h3>
             </div>
-            <p>Service skeleton framework for Ruby.</p>
-            <div class="code-block">class Echo
+            <p>Service skeleton framework for Ruby using metaprogramming.</p>
+            <div class="code-block example"><pre>class Echo
   extend Arq::Action
 
   params  :ping
@@ -183,12 +183,11 @@
   end
 end
 
-result = EchoAction.call(
-  ping: "hello world!"
-)
-result[:pong] # => "hello world!"</div>
+result = Echo.call(ping: "hello world!")
+result[:pong] # => "hello world!"</pre>
+            </div>
           </div>
-          <div class="group">
+          <div class="group project">
             <div class="group-header">
               <h3>
                 <a href="https://www.curseforge.com/minecraft/mc-mods/ezpas" class="project-title">
@@ -197,7 +196,7 @@ result[:pong] # => "hello world!"</div>
               </h3>
             </div>
             <p>Minecraft mod that adds automation via pipes and has over <b>800,000 downloads</b>.</p>
-            <img src="ezpas.png" class="project-img" />
+            <img src="ezpas.png" class="project-img example" />
           </div>
         </div>
       </section>

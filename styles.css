@@ -64,6 +64,19 @@ section {
   flex-basis: 0;
 }
 
+.group.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.group.project > .example {
+  flex-grow: 1;
+  margin-top: 0.5rem;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
 .group-header {
   display: flex;
   justify-content: space-between;
@@ -122,19 +135,12 @@ a:hover {
   font-weight: bold;
 }
 
-.project-img {
-  border: 1px solid #fff;
-  border-radius: 10px;
-  width: 100%;
-  height: auto;
+.code-block {
+  font-size: small;
 }
 
-.code-block {
-  padding: 0.5rem;
-  border: 1px dashed #fff;
-  border-radius: 5px;
-  white-space: pre;
-  font-size: small;
+.code-block > pre {
+  margin: 0.5rem;
 }
 
 @media (max-width: 700px) {
@@ -168,6 +174,10 @@ a:hover {
   a {
     color: #000;
     text-decoration-color: #000;
+  }
+
+  .group.project > .example {
+    border: 1px solid #000;
   }
 
   .grayscale-text {
