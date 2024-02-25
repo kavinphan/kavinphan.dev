@@ -52,6 +52,33 @@ section {
   margin-bottom: 1.5rem;
 }
 
+.cat-container {
+  margin-top: 1rem;
+
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.5rem;
+}
+
+.cat-container > .top-row {
+  grid-column: 1 / 4;
+}
+
+.cat-container > .item {
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat-container > .item > img {
+  max-width: 100%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
 .groups-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
