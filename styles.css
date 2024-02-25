@@ -199,6 +199,10 @@ a:hover {
     text-decoration-color: #000;
   }
 
+  .cat-container > .item > img {
+    border: 1px solid #000;
+  }
+
   .group.project > .example {
     border: 1px solid #000;
   }
