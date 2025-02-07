@@ -23,6 +23,10 @@
     <main>
       <h1>Kavin Phan</h1>
 
+      <div class="headshot-container">
+        <img src="images/me.jpg" class="headshot" />
+      </div>
+
       <nav>
         <a href="mailto:phan.kavin@gmail.com">Email</a>
         <a href="https://github.com/kavinphan/">GitHub</a>
@@ -34,25 +38,201 @@
         <h2>About Me</h2>
 
         <p>
-          I am a full-time software engineer at
-          <a href="https://grayscaleapp.com/" class="grayscale-text">
-            Grayscale</a
+          <b>Hey there, I'm Kavin!</b> I work as a full-time software engineer
+          at
+          <a href="https://grayscaleapp.com/" class="grayscale-text"
+            >Grayscale</a
+          >, a startup based in Atlanta, GA, where I have worn many hats
+          including front-end, back-end, dev-ops, and site reliability. I have
+          led projects to develop integrations with HRIS platforms like
+          <b>Workday</b> and <b>SAP SuccessFactors</b> and contributed to
+          efforts like moving our services from <b>Heroku</b> to <b>AWS</b> and
+          supporting <b>multi-region deployments</b>. I am also a part-time
+          student at the
+          <a href="https://www.gatech.edu/" class="gt-text"
+            >Georgia Institute of Technology</a
           >
-          and a part-time student at the
-          <a href="https://www.gatech.edu/" class="gt-text">
-            Georgia Institute of Technology</a
-          >.
+          where I will be graduating in May 2025 with a B.S. in Computer
+          Science. At Georgia Tech I am involved with
+          <a href="https://bitsofgood.org/" class="bog-text">Bits of Good</a>, a
+          club that develops pro-bono software for non-profits. I have served
+          the club as a developer, engineering manager, and even director of
+          engineering.
         </p>
 
         <br />
 
         <p>
-          I have previously interned at
-          <a href="https://www.tesla.com/" class="tesla-text">Tesla</a>, the
-          <a href="https://www.gtri.gatech.edu/" class="gt-text">
-            Georgia Tech Research Institute</a
-          >, and <a href="https://www.ncr.com/" class="ncr-text">NCR</a>.
+          Outside of work and school, I take care of my three cats and enjoy
+          making music!
         </p>
+      </section>
+
+      <!-- Experience -->
+      <section>
+        <h2>Experience</h2>
+
+        <!-- Grayscale -->
+        <div class="group">
+          <div class="group-header">
+            <h3>
+              <a href="https://grayscaleapp.com/" class="grayscale-text"
+                >Grayscale</a
+              >
+              <span class="job-title">(Software Engineer)</span>
+            </h3>
+            <p class="date-range">Aug 2021 - Present</p>
+          </div>
+          <ul>
+            <li>
+              Led an initiative to replace a 3rd party vendor by scoping out
+              required work and communicating with stakeholders which resulted
+              in decreased integration costs and increased observability
+              capabilities.
+            </li>
+            <li>
+              Developed a resilient data-polling service to synchronize millions
+              of records every day from 3rd party APIs in real-time using Ruby
+              on Rails, AWS (Kinesis, SQS), Docker, Redis, and PostgreSQL.
+            </li>
+            <li>
+              Reduced unknown 5XX error rates by implementing structured JSON
+              logging and finding problematic requests using Datadog.
+            </li>
+            <li>
+              Managed the self-hosted CI/CD pipeline that built container images
+              and deployed services to multiple regions (US and EU) using AWS
+              ECS, Docker, Terraform, and Bash.
+            </li>
+            <li>
+              Became a subject matter expert in CI/CD, cloud infrastructure in
+              AWS, and data synchronization from 3rd party platforms such as
+              Workday, SAP SuccessFactors, and Greenhouse.
+            </li>
+          </ul>
+        </div>
+
+        <!-- GTRI -->
+        <div class="group">
+          <div class="group-header">
+            <h3>
+              <a href="https://www.gtri.gatech.edu/" class="gt-text">GTRI</a>
+              (Software Engineer Co-op)
+            </h3>
+            <p class="date-range">Aug 2019 - Aug 2021</p>
+          </div>
+          <ul>
+            <li>
+              Developed a web application for the bio-informatics lab to process
+              COVID-19 40,000+ PCR test results daily from the Georgia Tech
+              campus and the Georgia House of Representatives using Flask.
+            </li>
+            <li>
+              Collaborated with the bioinformatics laboratory to create an
+              internal web app for the daily processing of 40,000+ COVID-19
+              tests using Python with Flask and Bootstrap.
+            </li>
+            <li>
+              Developed features for Delta Airlines's in-flight entertainment
+              system using Java, Spring, and RabbitMQ.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tesla -->
+        <div class="group">
+          <div class="group-header">
+            <h3>
+              <a href="https://www.tesla.com/" class="tesla-text">Tesla</a>
+              (Software Engineer Intern)
+            </h3>
+            <p class="date-range">Jan 2021 - Jun 2021</p>
+          </div>
+          <ul>
+            <li>
+              Developed a deployment system that allows for the installation and
+              updating of software to thousands of edge devices within the
+              factory with minimal downtime using GoLang and gRPC + Protobufs.
+            </li>
+          </ul>
+        </div>
+
+        <!-- NCR -->
+        <div class="group">
+          <div class="group-header">
+            <h3>
+              <a href="https://www.ncr.com/" class="ncr-text">NCR</a>
+              (Software Engineer Intern)
+            </h3>
+            <p class="date-range">Jun 2020 - Aug 2020</p>
+          </div>
+          <ul>
+            <li>
+              Created and presented an MVP of the white-label hospitality app
+              using Android's Instant App and Apple's App Clips features,
+              allowing customers to place orders without needing to install the
+              app.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h2>Education</h2>
+        <div class="group">
+          <div class="group-header">
+            <h3>
+              <a href="https://www.gatech.edu/" class="gt-text">
+                Georgia Institute of Technology
+              </a>
+            </h3>
+          </div>
+          <ul>
+            <li>GPA: 3.48</li>
+            <li>
+              Accolades: Undergraduate Student Research Award, Zell Miller
+              Scholarship, Dean's List
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section>
+        <h2>Projects</h2>
+        <div class="groups-grid">
+          <!-- Multiplayer Tier List -->
+          <div class="group project">
+            <div class="group-header">
+              <h3>
+                <a href="https://kp-mtl.netlify.app/" class="project-title">
+                  Multiplayer Tier List
+                </a>
+              </h3>
+            </div>
+            <p>Tier lists with democracy. Developed using React and GoLang.</p>
+            <img src="images/mtl.png" class="project-img example" />
+          </div>
+          <!-- EZPaS -->
+          <div class="group project">
+            <div class="group-header">
+              <h3>
+                <a
+                  href="https://www.curseforge.com/minecraft/mc-mods/ezpas"
+                  class="project-title"
+                >
+                  EZPaS
+                </a>
+              </h3>
+            </div>
+            <p>
+              Minecraft mod that adds automation via pipes and has over
+              <b>800,000 downloads</b>.
+            </p>
+            <img src="images/ezpas.png" class="project-img example" />
+          </div>
+        </div>
       </section>
     </main>
   </body>

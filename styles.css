@@ -26,7 +26,7 @@ main {
 
 h1 {
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -50,6 +50,24 @@ nav {
 
 section {
   margin-bottom: 1.5rem;
+}
+
+.headshot-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headshot {
+  margin-bottom: 1rem;
+  clip-path: circle();
+  width: 12rem;
+}
+
+.resume-embed {
+  width: 100%;
+  aspect-ratio: 1/0.5;
 }
 
 .groups-grid {
@@ -119,6 +137,12 @@ a:hover {
   font-weight: bold;
 }
 
+.bog-text {
+  color: #f38d6a;
+  text-decoration-color: #f38d6a;
+  font-weight: bold;
+}
+
 .tesla-text {
   color: #e80d0d;
   text-decoration-color: #e80d0d;
@@ -133,6 +157,7 @@ a:hover {
 
 .project-title {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .code-block > pre {
